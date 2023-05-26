@@ -24,8 +24,8 @@
     padding: 8px 10px;
     border-radius: 5px 5px 5px 5px;
     border: 1px solid #d5d5de;
-    border-bottom: none;
-    cursor: pointer;
+    border-bottom: #b00bb0;
+    cursor:default;
     display:block;
   }
 
@@ -35,8 +35,8 @@
   }
 
   #tabs-nav li a {
-    text-decoration: none;
-    color: #FFF;
+    text-decoration:underline;
+    color: gray;
   }
   
   .tab-content {
