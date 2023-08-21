@@ -7,15 +7,11 @@
     font-family: 'Poppins' , sans-serif;
 }
 
-body
-{
-    min-height: 100vh;
-    background: #bebebe;
-}
-
 header
 {
+    left: 0;
     position: fixed;
+    top: 0;
     width: 100%;
     min-height: 66px;
     background-color:   #2a623d;
@@ -98,7 +94,7 @@ header ul li ul li ul
     
     header nav
     {
-        position: absolute;
+        position: fixed;
         width: 100%;
         top: 66px;
         left: 0;
@@ -129,3 +125,35 @@ header ul li ul li ul
     }
 }
 
+body{
+    margin: 40px;
+}
+body div div div p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1{
+    position: sticky;
+    margin: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+img{
+    float: left;
+    margin-left: 100px;
+    width: 310px;
+    height: 400px;
+}
+
+p{
+    text-indent: 1cm;
+    margin-right: 1.5cm;
+}
