@@ -126,7 +126,10 @@ header ul li ul li ul
 }
 
 body{
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 body div div div p{
     margin-left: 40px;
@@ -134,7 +137,7 @@ body div div div p{
 }
 
 h1{
-    position: sticky;
+    position: flex;
     margin: 100px;
     margin-bottom: 50px;
     text-align: center;
@@ -143,12 +146,13 @@ h1{
 
 h2{
     margin-left: 50px;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 img{
     float: left;
     margin-left: 100px;
+    margin-right: 40px;
     width: 310px;
     height: 400px;
 }
@@ -156,4 +160,6 @@ img{
 p{
     text-indent: 1cm;
     margin-right: 1.5cm;
+    padding: 8px;
+    padding-top: 4px;
 }
