@@ -140,7 +140,23 @@ header ul li ul li ul
 
 }
 
+@media (max-width: 1200px)
+{
+    header{
+        max-height: 83px;
+    }
 
+    header ul li a{
+        font-size: large;
+    }
+        
+}
+
+
+body{
+    background-color: black;
+    text-decoration-color: #fff;
+}
 body div div div p{
     margin-left: 40px;
     margin-right: 40px;
@@ -152,25 +168,41 @@ h1{
     margin-bottom: 50px;
     text-align: center;
     font-size: 50px;
+    color: #fff;
 }
 
 h2{
+    color: #fff;
     font-weight: bold;
     font-family: 'Cinzel Decorative', cursive;
     margin-left: 50px;
-    font-size: 35px;
+    font-size: 30px;
+    
 }
 
 img{
-    position: flex;
+    position: inherit;
     float: left;
-    margin-left: 100px;
-    margin-right: 40px;
-    width: 310px;
+    margin-left: 40px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 360px;
     height: 400px;
 }
 
+img.gameplay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 926px;
+    height: 490px;
+}
+
 p{    
+    color: #fff;
     display: block;
     font-family: 'Noto Sans Mono', monospace;
     font-size: 19px;
@@ -185,3 +217,4 @@ p{
     padding-right: 50px;
     padding-left: 50px;
 }
+
