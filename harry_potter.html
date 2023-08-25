@@ -11,66 +11,92 @@
                 <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
                 <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-                <header>
-                    <a href="#" class="logo">Harry Potter</a>
-                    <div class="menuToggle"></div>
-                    <nav>
-                        <ul> 
-                            <li><a href="#"> Home</a></li>
-                            <li><a href="#"> Casas <b>▼</b></a>
-                                <ul>
-                                    <li><a><b> Grifinória </b></a></li>
-                                    <li><a><b> Sonserina </b></a></li>
-                                    <li><a><b> Cornival </b></a></li>
-                                    <li><a><b> Lufa-Lufa </b></a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#"> Personagens <b>▼</b></a></li>
-                            <li><a href="#"> Jogos <b>▼</b></a>
-                                <ul>
-                                    <li><a href="#titulo2">PC/Console <b>▶</b></a>
-                                        <ul>
-                                            <li><a href="#tab1">HP: The Philosopher's Stone</a></li>
-                                            <li><a href="#tab2">HP: Quidditch World Cup</a></li>
-                                            <li><a href="#tab3">HP: The Prisoner of Azkaban</a></li>
-                                            <li><a href="#tab4">HP: The Goblet of Fire</a></li>
-                                            <li><a href="#tab5">HP: The Order of the Phoenix</a></li>
-                                            <li><a href="#tab6">HP: The Half-Blood Prince</a></li>
-                                            <li><a href="#tab7">Lego Harry Potter: Years 5-7</a></li>
-                                            <li><a href="#tab8">Harry Potter for Kinect</a></li>
-                                            <li><a href="#tab9">Hogwart's Legacy</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#titulo1">Mobile <b>▶</b></a>
-                                        <ul>
-                                            <li><a href="#tab1.2">HP: The Philosopher's Stone</a></li>
-                                            <li><a href="#tab2.2">HP: Quidditch World Cup</a></li>
-                                            <li><a href="#tab3.2">HP: The Prisoner of Azkaban</a></li>
-                                            <li><a href="#tab4.2">HP: The Goblet of Fire</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Filmes <b>▼</b></a>
-                                <ul>
-                                    <li><a>filme</a></li>
-                                    <li><a>filme</a></li>
-                                    <li><a>filme</a></li>
-                                    <li><a>filme</a></li>
-                                    <li><a>filme</a></li>
-                                    <li><a>filme</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Sobre</a></li>
-                        </ul>
-                    </nav>
-                </header>
-    
-                
+                <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+                <script>
+                    let mybutton = document.getElementById("myBtn");
+
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            mybutton.style.display = "block";
+                        } else {
+                            mybutton.style.display = "none";
+                        }
+                    }
+
+                    function topFunction() {
+                    document.body.scrollTop = 0; 
+                    document.documentElement.scrollTop = 0; 
+                    }
+                </script>
         </head>
     
         
         <body>
+
+            <header>
+                <a href="#" class="logo">Harry Potter</a>
+                <div class="menuToggle"></div>
+                <nav>
+                    <ul> 
+                        <li><a href="#"> Home</a></li>
+                        <li><a href="#"> Casas <b>▼</b></a>
+                            <ul>
+                                <li><a><b> Grifinória </b></a></li>
+                                <li><a><b> Sonserina </b></a></li>
+                                <li><a><b> Cornival </b></a></li>
+                                <li><a><b> Lufa-Lufa </b></a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"> Personagens <b>▼</b></a></li>
+                        <li><a href="#"> Jogos <b>▼</b></a>
+                            <ul>
+                                <li><a href="#titulo2">PC/Console <b>▶</b></a>
+                                    <ul>
+                                        <li><a href="#tab1">HP: The Philosopher's Stone</a></li>
+                                        <li><a href="#tab2">HP: Quidditch World Cup</a></li>
+                                        <li><a href="#tab3">HP: The Prisoner of Azkaban</a></li>
+                                        <li><a href="#tab4">HP: The Goblet of Fire</a></li>
+                                        <li><a href="#tab5">HP: The Order of the Phoenix</a></li>
+                                        <li><a href="#tab6">HP: The Half-Blood Prince</a></li>
+                                        <li><a href="#tab7">Lego Harry Potter: Years 5-7</a></li>
+                                        <li><a href="#tab8">Harry Potter for Kinect</a></li>
+                                        <li><a href="#tab9">Hogwart's Legacy</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#titulo1">Mobile <b>▶</b></a>
+                                    <ul>
+                                        <li><a href="#tab1.2">HP: The Philosopher's Stone</a></li>
+                                        <li><a href="#tab2.2">HP: Quidditch World Cup</a></li>
+                                        <li><a href="#tab3.2">HP: The Prisoner of Azkaban</a></li>
+                                        <li><a href="#tab4.2">HP: The Goblet of Fire</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Filmes <b>▼</b></a>
+                            <ul>
+                                <li><a>filme</a></li>
+                                <li><a>filme</a></li>
+                                <li><a>filme</a></li>
+                                <li><a>filme</a></li>
+                                <li><a>filme</a></li>
+                                <li><a>filme</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sobre</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <script>
+                let menuToggle = document.querySelector('.menuToggle');
+                let header = document.querySelector('header');
+                menuToggle.onclick = function(){
+                    header.classList.toggle('active');
+                }
+            </script>
 
             <div class="tabs">
                 <h1 id="titulo2">Jogos para PC/Console</h1>
@@ -190,7 +216,7 @@
                                     <p>O jogo abrange os quatro primeiros anos da história de Harry Potter em Hogwarts, desde seu primeiro encontro com Hagrid até o confronto com Voldemort no Cemitério de Little Hangleton. No jogo, os jogadores podem reviver as aventuras de Harry, Ron e Hermione enquanto exploram o mundo mágico em forma de Lego.</p>
                                     <p>A jogabilidade é baseada em quebra-cabeças, plataformas e combates leves. Os jogadores podem controlar diversos personagens da série, cada um com suas próprias habilidades especiais, para superar obstáculos, resolver enigmas e avançar na história. Além disso, o jogo incorpora elementos de construção com blocos Lego, permitindo que os jogadores construam e reconstruam partes do ambiente para progredir.</p>
                                     <p>Ao longo do jogo, os jogadores podem desbloquear novos personagens, veículos e itens colecionáveis, adicionando um elemento de exploração e descoberta ao jogo. Há também a opção de jogar cooperativamente com um amigo, o que possibilita a cooperação para resolver desafios e completar níveis.</p>
-                                    <img class="gameplay" src="images/lego 1-4 mobile.png"
+                                    <img class="gameplay" src="images/lego 1-4 mobile.png">
                                     <p>"Lego Harry Potter: Years 1-4" mantém o estilo visual característico dos jogos Lego, com personagens e cenários recriados com blocos coloridos e humor leve. A trilha sonora familiar da série também está presente, adicionando uma atmosfera encantadora ao jogo.</p>
                                     <p>Com sua jogabilidade acessível e divertida, "Lego Harry Potter: Years 1-4" para dispositivos móveis oferece aos fãs a oportunidade de reviver as primeiras quatro aventuras de Harry Potter em um formato Lego atraente. É uma opção atraente para jogadores que desejam desfrutar da magia de Harry Potter em seus dispositivos móveis</p>
                             </div>
